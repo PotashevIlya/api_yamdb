@@ -45,4 +45,3 @@ urlpatterns = [
     path('v1/', include(router_v1.urls)),
     path('v1/', include(auth_urls)),
 ]
-urlpatterns.extend(auth_urls)
